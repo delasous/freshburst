@@ -1,0 +1,18 @@
+# a juicy second
+
+– the bus is wooden, and the lights golden. The female form is delight –
+
+curves suspended delicately on slender sticks, strike out powerful as they strut succulent down the street –
+damn! the pleasure in natural form is sweet –
+
+the brittle bone-dry rub of wood; the irresolute twinkle of light; the curve of supple flesh – there is enough delight in a second flash of the world going by to keep the unoccupied mind jubilant and juicy with thought.
+
+The struggle to write is the struggle to capture this juiciness – to find the right, the wonderful, the most playful way to bring form to life – to trace the textured contours of our myriad and diverse thoughts, to delight in the most contrived utterances the mind can muster –
+
+without going overboard, without clouding the meaning. As soon as the meaning is lost, the purpose is lost, and the words float there, sadly, like a few squiggles on the backs of misty eyes. It is no more or less difficult than that. No more or less aggravating than the hard time spent in the head rather than out.
+
+The red hand blinks STOP as the man jiggles hurriedly through the gap in traffic –
+
+life is rarely black or white. There is always an intermediate pause, a space, in which we are left to make a play. Do we risk it in a hopeful bound; or do we sit back casually and wait for another, better timed window?
+
+Frankly, there is no rush. Better to sit back and watch the world go by and delight in it than miss another juicy second –

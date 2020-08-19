@@ -1,0 +1,21 @@
+# tofino
+
+sweeping sandy beaches stretch on and on, drawing the eye continually breadthwise, as if mentally stroking their magnitude – Trees tower to the left as an impenetrable barrier of ruffling leaves; they are powerful green pinnacles, strengthened in numbers by the trials of the blackest storms – The sea is a crystalline crater to the right, calm today, and laying low against a flat front of sand – Waves lap against it, foaming, like a frothy few clouds, nimbly breaking the monotonous block shades that dominate this enormous landscape –
+
+Distance, is imperceptible here; that island, there – five, or more, kilometers away?
+How far to the horizon? How far to the limits of our perception?
+I wonder –
+walking this sandy strip, staring at the sand pouring endlessly on,
+longing over it
+continually, hopefully
+as if staring at the empty contents of a broken hour glass –
+how long will a man walk before he realises the endlessness of his own horizon?
+
+Well before his mind ceases its longing,
+I suppose;
+only as his body tires by degrees, and crumbles
+to the sea –
+
+nature is a reminder of our limits. It is a force so incomprehensibly powerful, so eternal and vast and indomitable, that it belittles every notion of worth. Nature is stillness; because, as I look upon it, all of my conceit is sucked from me like hot mist
+rising against a bristling mountain cone – a mist that plays across the endless treetops of the Pacific Northwest. Mist like an ancient mystic shroud teasing secrets long forgotten,
+stories long untold.

@@ -1,13 +1,14 @@
 import Head from 'next/head'
+import Link from 'next/link'
 //import About from '../components/banner';
 //import Logo from '../components/Logo'
 
 const mock = [
-  { title: 'mt. baker', content: ''},
-  { title: 'sozinho', content: ''},
-  { title: 'tofino', content: ''},
-  { title: 'notes from a cafe#2', content: ''},
-  { title: 'a load of mackeral', content: ''},
+  { title: 'mt. baker', path: 'mt.-baker'},
+  { title: 'a juicy second', path: 'a-juicy-second'},
+  { title: 'a load of mackeral', path: 'a-load-of-mackerel'},
+  { title: 'notes from a cafe#2', path: 'notes-from-a-cafe-2'},
+  { title: 'tofino', path: 'tofino'},
 ]
 
 function Logo () {
@@ -57,31 +58,45 @@ function Nav () {
 }
 
 function Titles (props) {
-  const content = props.content.map((t) => {
+  const content = props.content.map((t, ix) => {
     return (
       <>
-        <h2 className='title'>{t.title}</h2>
+        <li key={ix} className='title'>
+          <Link  href={`/posts/${t.path}.mdx`}>
+            <a>{t.title}</a>
+          </Link>
+        </li>
         <style jsx>{`
           .title {
             width: auto;
             padding: 0 10px;
             font-weight: 200;
             font-size: 30px;
+          },
+          a {
+            text-decoration: none;
+            color: #2a2a2a;
           }
         `}</style>
       </>
     );
   })
-  //list item and key
-  //becomes own content-title component // add <article> tags
+  //add <article> tags?
 
   return (
     <>
     <div className='title-container'>
-      {content}
+      <ul className='title-list'>
+        {content}
+      </ul>
     </div>
     <style jsx>{`
       .title-container {
+        grid-row: 3;
+        grid-column: 2 / 4;
+      },
+      .title-list {
+        list-style-type: none;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -90,8 +105,7 @@ function Titles (props) {
         flex: 2 1 auto;
         width: auto;
         height: auto;
-        grid-row: 3;
-        grid-column: 2 / 4;
+        margin: 0;
       }
     `}</style>
     </>

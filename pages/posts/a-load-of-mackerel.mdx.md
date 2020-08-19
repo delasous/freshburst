@@ -1,0 +1,25 @@
+# a load of mackerel
+
+“One of the biggest reasons I Left Elkton Hills was because I was surrounded by phonies. That’s all. They were coming in the goddam window.” – Holden Caulfield, Catcher in the Rye.
+
+—
+
+My closest buddy started dating this girl. She was a Vegetarian. The first thing I asked him, being a large Celtic-blooded gentleman and all, was how it was going to work? Not that it couldn’t, I’m not arguing that Vegetarians are unreasonable people, it just seemed to me like the foundation for a contentious issue; like, opposing work schedules, or clashing music tastes. But I get it, we like to think life won’t get in the way of love, and maybe in some special cases it won’t, but lifestyle choices, isn’t that a different kettle of fish…
+
+So I asked her one day, can she eat fish? because you know, some vegetarians draw the line closer to the watermark. Some are so strict they can only eat certain kinds of veg. I don’t have much to say about those kinds here. Anyways, I asked her how she felt about eating fish. And she told me: No, I don’t eat anything with a Central Nervous System…
+
+Well, this got me good.
+
+Wait – what? What in the fuck is your definition of a CNS? Cause slugs have CNS’s, underwater slugs in fact. There were some important discoveries made on underwater slugs – important discoveries about how our CNS works.
+
+See, what I think you’re meaning when you say CNS, is consciousness, and those aren’t the same thing. Just because an animal has a CNS, doesn’t mean it’s conscious. That’s what those slugs showed us. They showed us that even simple little slug brains can look like they’re conscious, cause simple little networks can make complex looking behaviours. But just cause an animal can respond in a complex way to its environment, doesn’t mean it’s conscious.
+
+What I’m trying to say is, is consciousness is hard to define. We struggle to even define the limits of our own consciousness. Pigs, sheep, cows – yeah, they might be somewhere on the fence too. But fish? Fish show complex behaviours, they don’t show consciousness. It’s not any less beautiful or respect-worthy – but don’t try and argue that because it’s got a central nervous system it shouldn’t be eaten. By that logic, the only two creatures on this planet that we should be eating are sponges and jellyfish.
+
+Of course, I said none of this. I really just said ok, and that was that. My buddy and her dated for a couple of months and it ended. The Vegetarian thing was tough. In fact, I had to watch him stuff himself with meat every goddamn chance he got. Like he was ashamed of a bad habit or something. But yeah, I didn’t say anything because, well, I’m pretty damn polite.
+
+I’m not trying to disrespect Vegetarians by saying all this behind her back, I just didn’t see any point in arguing with her because arguments like this are always like two ships in the night. She would say something like, well that’s not my point… and of course, I’d keep chasing her point around aimlessly. Besides, I don’t like to tell people how to live their life. If someone makes a choice to do this, or involve themselves with that, I respect it, even if it’s just because I wouldn’t like to be told otherwise myself.
+
+And choosing vegetarianism is a difficult lifestyle choice. It’s like saying no to booze – socially, it’s a little awkward if you tell people what you can’t have when you are dining with them. But there are plenty of good arguments for going Veggie. Or, at least, eating a little less meat. I’ll admit that; and I love meat. See, the one that really gets me is that we are putting crazy stress on ecosystems by raising so much livestock – I agree with that.
+
+What got me going here was the fact that she didn’t think anything she said through. It drives me nuts when people do that, especially when they fall back on science to make it look more justified or something. See, most people would have believed that shit about the CNS as a sound reason, but not me. There are plenty of sound, scientifically-backed, ecological reasons not to eat meat, just don’t feed me some mackerel about the central nervous system.

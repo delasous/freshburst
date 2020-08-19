@@ -1,5 +1,19 @@
 import App from 'next/app';
 import Head from 'next/head';
+import React from 'react'
+import {MDXProvider} from '@mdx-js/react'
+
+const components = {
+  wrapper: props => (
+      <main style={{
+        'display': 'grid',
+        'grid-template-columns': '200px 1fr',
+        'font-family': 'Hepta Slab, serif'
+    }}{...props} />
+  ),
+  h1: props => <h1 style={{'grid-column': '2'}} {...props} />,
+  p: props => <p style={{'grid-column': '2'}} {...props} />,
+}
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -7,7 +21,10 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200;400;700&display=swap" rel="stylesheet" type="text/css" />
       </Head>
-      <Component {...pageProps} />
+      <MDXProvider components={components}>
+        <main {...pageProps} />
+        <Component {...pageProps} />
+      </MDXProvider>
     </>
   )
 }
