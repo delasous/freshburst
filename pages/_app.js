@@ -11,8 +11,8 @@ const components = {
         'font-family': 'Hepta Slab, serif'
     }}{...props} />
   ),
-  h1: props => <h1 style={{'grid-column': '2'}} {...props} />,
-  p: props => <p style={{'grid-column': '2'}} {...props} />,
+  h1: props => <h1 style={{'grid-column': '2', 'color':'#3332cc', 'font-weight': '200', 'font-size': '60px'}} {...props} />,
+  p: props => <p style={{'grid-column': '2', 'font-weight': '200', 'line-height': '1.5em'}} {...props} />,
 }
 
 function MyApp({ Component, pageProps }) {
