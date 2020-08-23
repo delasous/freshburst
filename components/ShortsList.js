@@ -1,12 +1,12 @@
 import Link from 'next/link'
 
-export default function ShortsList (props) {
-  const content = props.content.map((t, ix) => {
+export default function ShortsList (posts) {
+  const content = posts.content.map((t, ix) => {
     return (
       <>
         <li key={ix} className='title'>
-          <Link  href={`/posts/${t.path}.mdx`}>
-            <a>{t.title}</a>
+          <Link  href={t.link}>
+            <a>{t.module.meta.title}</a>
           </Link>
         </li>
         <style jsx>{`

@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Logo from '../components/Logo'
 import Nav from '../components/Nav'
 import ShortsList from '../components/ShortsList'
+import getAllPostPreviews from '../components/getAllPostPreviews'
 
 const mock = [
   { title: 'mt. baker', path: 'mt.-baker'},
@@ -11,6 +12,8 @@ const mock = [
   { title: 'notes from a cafe#2', path: 'notes-from-a-cafe-2'},
   { title: 'tofino', path: 'tofino'},
 ]
+
+const posts = getAllPostPreviews();
 
 const Home = () => {
   return(
@@ -23,7 +26,7 @@ const Home = () => {
         <div className='container'>
           <Logo />
             <Nav />
-          <ShortsList content={mock} />
+          <ShortsList content={posts} />
         </div>
       </body>
       <style jsx>{`
