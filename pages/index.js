@@ -5,14 +5,6 @@ import Nav from '../components/Nav'
 import ShortsList from '../components/ShortsList'
 import getAllPostPreviews from '../components/getAllPostPreviews'
 
-const mock = [
-  { title: 'mt. baker', path: 'mt.-baker'},
-  { title: 'a juicy second', path: 'a-juicy-second'},
-  { title: 'a load of mackeral', path: 'a-load-of-mackerel'},
-  { title: 'notes from a cafe#2', path: 'notes-from-a-cafe-2'},
-  { title: 'tofino', path: 'tofino'},
-]
-
 const posts = getAllPostPreviews();
 
 const Home = () => {
