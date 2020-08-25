@@ -25,7 +25,7 @@ const Home = () => {
         .container {
           height: 100vh;
           display: grid;
-          grid-template-columns: 200px 1fr 1fr;
+          grid-template-columns: 250px 1fr 1fr;
           grid-template-rows: 1fr 1fr minmax(50px, auto)  1fr 1fr;
         }
       `}</style>

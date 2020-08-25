@@ -8,6 +8,13 @@ export default function Logo () {
       <h1>fresh burst</h1>
     </div>
     <style jsx>{`
+    .container {
+        display: flex;
+        justify-content: center;
+        grid-row: 1;
+        grid-column: 1 / 1;
+    }
+
     .logo-container {
       display: block;
       width: 110px;
@@ -18,14 +25,7 @@ export default function Logo () {
       max-width: 150px;
       max-height: 150px
     }
-
-    .container {
-      display: flex;
-      justify-content: center;
-      grid-row: 1;
-      grid-column: 1 / 1;
-    }
-
+    
     .container h1 {
       font-weight: 400;
       color: #212121;
