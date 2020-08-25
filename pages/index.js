@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Logo from '../components/Logo'
 import Nav from '../components/Nav'
 import ShortsList from '../components/ShortsList'
-import getAllPostPreviews from '../components/getAllPostPreviews'
+import getAllPostPreviews from '../components/getPostPreviews'
 
 const posts = getAllPostPreviews();
 
