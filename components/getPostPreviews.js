@@ -16,7 +16,10 @@ function randomSlice(p) {
  )
 }
 
+export function getAllPostPreviews() {
+  return importAll(require.context('../pages/?preview', true, /\.mdx$/));
+}
 
-export default function getAllPostPreviews() {
-  return randomSlice( importAll(require.context('../pages/?preview', true, /\.mdx$/)) );
+export function getRandomPostPreviews() {
+  return randomSlice( getAllPostPreviews() );
 }
