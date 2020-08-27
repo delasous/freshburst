@@ -4,6 +4,8 @@ import React from 'react'
 import {MDXProvider} from '@mdx-js/react'
 import Layout from '../components/Layout'
 
+import '../style.css';
+
 const components = {
   wrapper: props => (
       <main style={{

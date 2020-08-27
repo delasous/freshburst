@@ -17,19 +17,6 @@ const Layout = ({ children }) => {
           grid-template-rows: 1fr 1fr minmax(50px, auto)  1fr 1fr;
         }
       `}</style>
-      <style jsx global>{`
-        html,
-        body,
-        h2 {
-          padding: 0;
-          margin: 0;
-          background-color: #f7f7f7;
-          font-family: 'Hepta Slab', serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-    `}</style>
     </>
   )
 };
