@@ -1,14 +1,10 @@
 const { createLoader } = require('simple-functional-loader')
-const visit = require('unist-util-visit')
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
 module.exports = withBundleAnalyzer({
   pageExtensions: ['js', 'jsx', 'mdx'],
-  experimental: {
-    modern: true,
-  },
   webpack: (config, options) => {
     const mdx = [
       options.defaultLoaders.babel,
