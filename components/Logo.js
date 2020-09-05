@@ -1,39 +1,10 @@
 export default function Logo () {
   return (
-  <>
-    <div className='container'>
-      <div className='logo-container'>
-        <img src='/explode-crop-1.gif' alt='exploding burst' className='logo'/>
+    <div class='flex flex-wrap justify-center grid-row-span-1 grid-col-span-1'>
+      <div class='block w-110px h-110px'>
+        <img class='w-150px h-150px' src='/explode-crop-1.gif' alt='exploding burst' />
       </div>
-      <h1>fresh burst</h1>
+      <h1 class='font-normal text-4xl text-secondary my-10 mr-5'>fresh burst</h1>
     </div>
-    <style jsx>{`
-    .container {
-        display: flex;
-        justify-content: center;
-        grid-row: 1;
-        grid-column: 1 / 1;
-    }
-
-    .logo-container {
-      display: block;
-      width: 110px;
-      height: 110px;
-    }
-
-    .logo {
-      max-width: 150px;
-      max-height: 150px
-    }
-    
-    .container h1 {
-      font-weight: 400;
-      color: #212121;
-      font-size: 2.5em;
-      margin: 10px 0 10px 5px;
-    }
-
-  `}</style>
-  </>
   )
 }
