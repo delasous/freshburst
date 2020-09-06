@@ -20,6 +20,10 @@ module.exports = {
       flex: {
         '2': '2 1 auto',
       },
+      height: {
+        '150': '150px',
+        '110': '110px',
+      }
     },
   },
   variants: {},
