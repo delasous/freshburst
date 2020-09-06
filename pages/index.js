@@ -14,10 +14,10 @@ export default function Home() {
         <title>The Fresh Burst</title>
         <link rel='icon' href='lemicon.png' />
       </Head>
-      <div class='flex items-start justify-end row-start-3 col-span-1'>
+      <div className='flex items-start justify-end row-start-3 col-span-1'>
         <Nav />
       </div>
-      <div class='row-start-3 col-start-2 col-span-2'>
+      <div className='row-start-3 col-start-2 col-span-2'>
         <ShortsList content={posts} />
       </div>
     </>

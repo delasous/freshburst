@@ -5,7 +5,7 @@ export default function Nav () {
     <ul>
       <li>
         <Link href='shorts'>
-          <a class='text-3xl text-blue hover:text-white hover:bg-blue'>
+          <a className='text-3xl text-blue hover:text-white hover:bg-blue'>
             shorts//
           </a>
         </Link>
