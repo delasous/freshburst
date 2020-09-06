@@ -8,7 +8,7 @@ const components = {
 
 export default function Post({ meta, children }){
   return(
-    <article class='grid grid-cols-1 col-start-2 col-span-2 row-start-4'>
+    <article class='grid grid-cols-1 col-start-2 col-span-2 row-start-4 pb-10 pr-10'>
       <Head>
         <title>{meta.title}</title>
       </Head>

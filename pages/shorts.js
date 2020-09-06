@@ -5,6 +5,8 @@ const posts = getAllPostPreviews();
 
 export default function shorts(){
   return (
-    <ShortsList content={posts} />
+    <div class='row-start-3 col-start-2 col-span-2'>
+      <ShortsList content={posts} />
+    </div>
   )
 }
