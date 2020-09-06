@@ -12,7 +12,7 @@ function randomSlice(p) {
     p.map((a) => ({sort: Math.random(), value: a}))
       .sort((a, b) => a.sort - b.sort)
       .map((a) => a.value)
-      .slice(0,3)
+      .slice(0,5)
  )
 }
 
