@@ -2,7 +2,7 @@ function importAll(r) {
   return r
     .keys()
     .map((fileName) => ({
-      link: fileName.replace(/\.mdx/, ''),
+      link: fileName.replace(/\.mdx|\./g, ''),
       module: r(fileName),
     }))
 }
