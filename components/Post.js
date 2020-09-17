@@ -1,22 +1,37 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import { MDXProvider } from '@mdx-js/react'
-import { useRouter } from 'next/router'
+import Head from 'next/head';
+import Link from 'next/link';
+import { MDXProvider } from '@mdx-js/react';
+import { useRouter } from 'next/router';
+import { useState, useEffect } from 'react'
+import { useStoreState, useStoreActions } from 'easy-peasy';
 
 const components = {
   h1: props => <h1 className='col-start-2 text-blue font-thin text-5xl' {...props} />,
   p: props => <p className='col-start-2 font-thin leading-7' {...props} />,
-}
+};
 
-//inject store query into filteredPosts
 export default function Post({ meta, children, posts }){
   const router = useRouter();
-  const postIndex = posts.findIndex((post) => post.link === router.pathname);
-  const filteredPosts = posts.filter((e, ix ,arr) => arr.indexOf(e) !== postIndex);
-  const randomMaxIndex = (max =>{
-    return ( Math.floor(Math.random() * max) )
-  })(filteredPosts.length);
-  const next = filteredPosts[randomMaxIndex];
+
+  const unseenPosts = useStoreState(state => state.posts.toRead(posts));
+  const markAsRead = useStoreActions(actions => actions.posts.addReadPost);
+
+  const currentPost = posts.find((post) => {
+    if(post.link === router.pathname) return post;
+  });
+  const minusCurrent = unseenPosts.filter((x) => x.id !== currentPost.id);
+
+  const randomUnseenIndex = (max =>{
+      return ( Math.floor(Math.random() * max) )
+    })(minusCurrent.length);
+  const next = minusCurrent[randomUnseenIndex] || {link: '/'};
+
+  //returned to fire on dismount
+  useEffect(() => {
+    return () => {
+      markAsRead(currentPost.id);
+    }
+  }, []);
 
   return(
     <article className='grid grid-cols-center justify-center col-start-2 col-span-2 row-start-4 pb-10 pr-10'>

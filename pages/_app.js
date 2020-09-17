@@ -5,7 +5,7 @@ import React from 'react';
 import { MDXProvider } from '@mdx-js/react';
 import { StoreProvider } from 'easy-peasy';
 
-import { store } from '../store/store';
+import store from '../store/store';
 import Layout from '../components/Layout';
 
 import '../style.css';
