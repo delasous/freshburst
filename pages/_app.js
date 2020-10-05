@@ -2,7 +2,6 @@ import App from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 
-import { MDXProvider } from '@mdx-js/react';
 import { StoreProvider } from 'easy-peasy';
 
 import store from '../store/store';
@@ -12,7 +11,7 @@ import '../style.css';
 
 class FreshApp extends App {
   render(){
-    const { Component, pageProps, router } = this.props;
+    const { Component, pageProps } = this.props;
 
     return(
       <div>
