@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import { useStoreState, useStoreActions } from 'easy-peasy';
 
+import Layout from './Layout';
 import PostLayout from './PostLayout';
 
 const Post = function({  children, meta, posts }){
@@ -32,5 +33,11 @@ const Post = function({  children, meta, posts }){
     <PostLayout children={children} meta={meta} next={next} />
   )
 }
+
+Post.getLayout = page => (
+  <Layout>
+    <Post>{page}</Post>
+  </Layout>
+)
 
 export default Post;

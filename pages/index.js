@@ -1,13 +1,14 @@
 import Head from 'next/head'
 
-import Logo from '../components/Logo'
+import Layout from '../components/Layout';
+
 import Nav from '../components/Nav'
 import ShortsList from '../components/ShortsList'
 
 import { getRandomPostPreviews } from '../components/PostPreviews'
 const posts = getRandomPostPreviews();
 
-export default function Home() {
+const Home = function() {
   return(
     <>
       <Head>
@@ -23,3 +24,7 @@ export default function Home() {
     </>
  )
 }
+
+Home.getLayout = page => <Layout>{page}</Layout>;
+
+export default Home;

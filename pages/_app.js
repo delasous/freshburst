@@ -13,18 +13,19 @@ class FreshApp extends App {
   render(){
     const { Component, pageProps } = this.props;
 
-    return(
-      <div>
+    const getLayout =
+    Component.getLayout || (page => <Layout children={page} />)
+
+    return getLayout(
+      <>
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200;400;700&display=swap" rel="stylesheet" type="text/css" />
         </Head>
         <StoreProvider store={store}>
-          <Layout>
-              <Component {...pageProps} />
-          </Layout>
+          <Component {...pageProps} />
         </StoreProvider>
-      </div>
-    )
+      </>
+    ) 
   }
 }
 
