@@ -13,8 +13,7 @@ class FreshApp extends App {
   render(){
     const { Component, pageProps } = this.props;
 
-    const getLayout =
-    Component.getLayout || (page => <Layout children={page} />)
+    const getLayout = Component.getLayout || (page => <Layout children={page} />)
 
     return getLayout(
       <>
