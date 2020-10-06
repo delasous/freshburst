@@ -15,10 +15,10 @@ const Home = function() {
         <title>The Fresh Burst</title>
         <link rel='icon' href='lemicon.png' />
       </Head>
-      <div className='flex items-start sm:justify-start md:justify-end sm:items-end md:items-start sm:items-end sm:row-start-2 md:row-start-3 sm:col-end-2 md:col-span-1 sm:ml-4'>
+      <div className='flex items-start xsm:justify-start md:justify-end xsm:items-end md:items-start xsm:items-end xsm:row-start-2 md:row-start-3 xsm:col-end-2 md:col-span-1 xsm:ml-4'>
         <Nav />
       </div>
-      <div className='row-start-3 sm:col-start-1 sm:col-span-1 md:col-start-2 md:col-span-2'>
+      <div className='row-start-3 xsm:col-start-1 xsm:col-span-1 md:col-start-2 md:col-span-2'>
         <ShortsList content={posts} />
       </div>
     </>

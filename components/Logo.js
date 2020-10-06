@@ -10,8 +10,8 @@ export default function Logo () {
           </a>
         </Link>
       </div>
-      <div className='w-110 sm:hidden md:block'>
-        <h1 className='font-normal text-4xl text-secondary my-5 -ml-8'>fresh burst</h1>
+      <div className='w-110 block'>
+        <h1 className='font-normal text-4xl text-secondary my-5 -ml-8 w-10'>fresh burst</h1>
       </div>
     </div>
   )

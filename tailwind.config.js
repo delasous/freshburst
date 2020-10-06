@@ -24,7 +24,10 @@ module.exports = {
       height: {
         '150': '150px',
         '110': '110px',
-      }
+      },
+      screens: {
+        'xsm': {'min': '240px', 'max': '768px'},
+      },
     },
   },
   variants: {},
