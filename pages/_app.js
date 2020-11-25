@@ -18,7 +18,7 @@ class FreshApp extends App {
     return getLayout(
       <>
         <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200;400;700&display=swap" rel="stylesheet" type="text/css" />
+          <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200;300;400;700&display=swap" rel="stylesheet" type="text/css" />
         </Head>
         <StoreProvider store={store}>
           <Component {...pageProps} />

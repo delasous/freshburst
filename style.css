@@ -4,6 +4,12 @@ body {
   @apply bg-primary;
 }
 
+@responsive {
+    .bg-cliptext-swirl {
+      @apply text-transparent py-10 bg-center bg-burst-exp bg-contain bg-no-repeat bg-clip-text;
+    }
+}
+
 @tailwind components;
 
 @tailwind utilities;

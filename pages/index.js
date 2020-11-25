@@ -15,7 +15,7 @@ const Home = function() {
         <title>The Fresh Burst</title>
         <link rel='icon' href='lemicon.png' />
       </Head>
-      <div className='flex items-start xsm:justify-start md:justify-end xsm:items-end md:items-start xsm:items-end xsm:row-start-2 md:row-start-3 xsm:col-end-2 md:col-span-1 xsm:ml-4'>
+      <div className='flex items-start xsm:justify-start md:justify-end xsm:items-end md:items-start xsm:items-end xsm:row-start-2 md:row-start-3 xsm:col-end-2 md:col-span-1 '>
         <Nav />
       </div>
       <div className='row-start-3 xsm:col-start-1 xsm:col-span-1 md:col-start-2 md:col-span-2'>

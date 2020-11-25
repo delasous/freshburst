@@ -4,9 +4,9 @@ import Link from 'next/link';
 import { MDXProvider } from '@mdx-js/react';
 
 const components = {
-    h1: props => <h1 className='col-start-2 text-blue font-thin text-5xl' {...props} />,
-    p: props => <p className='col-start-2 font-thin leading-7' {...props} />,
-  };
+    h1: props => <h1 className='col-start-2 text-blue font-normal text-5xl xsm:px-10' {...props} />,
+    p: props => <p className='col-start-2 font-light leading-7 xsm:px-10 mb-6' {...props} />,
+};
 
 export default function PostLayout({ children, meta, next }){
     return (

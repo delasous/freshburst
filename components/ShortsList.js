@@ -16,7 +16,7 @@ export default function ShortsList (posts) {
   })
 
   return (
-    <ul className='flex flex-wrap items-start flex-2 list-none sm:justify-start md:justify-around m-0'>
+    <ul className='flex flex-wrap items-start flex-2 list-none sm:justify-start md:justify-around xsm:px-6'>
       {content}
     </ul>
   );

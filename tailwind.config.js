@@ -2,6 +2,9 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'burst-exp': "url('/explode-crop-2.gif')"
+      }),
       fontFamily: {
         'sans': ['Hepta Slab', 'serif'],
       },
@@ -30,6 +33,8 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+      backgroundClip: ['responsive', 'hover', 'focus'],
+  },
   plugins: [],
 }
