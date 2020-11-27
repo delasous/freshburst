@@ -23,6 +23,7 @@
     "react-dom": "16.13.1",
     "remote-redux-devtools": "^0.5.16",
     "simple-functional-loader": "^1.2.1",
-    "tailwindcss": "^1.7.5"
+    "tailwindcss": "^1.7.5",
+    "tailwindcss-pseudo-elements": "^1.4.1"
   }
 }
