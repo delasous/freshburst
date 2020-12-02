@@ -10,7 +10,7 @@ const components = {
 
 export default function PostLayout({ children, meta, next }){
     return (
-     <article className='grid grid-cols-center justify-center col-start-2 col-span-2 row-start-4 pb-10 pr-10 xsm:ml-3 xsm:mr-0 md:mr-40 xl:mr-80'>
+     <article className='grid grid-cols-center justify-center col-start-2 col-span-2 row-start-4 pb-10 md:pr-10 xsm:ml-3 xsm:mr-0 md:mr-40 xl:mr-80'>
         <Head>
         <title>{meta.title}</title>
         </Head>
