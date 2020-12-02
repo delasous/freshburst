@@ -1,5 +1,13 @@
 @tailwind base;
 
+p {
+  @apply font-nunito;
+}
+
+h1, h3{
+  @apply font-sans font-semibold;
+}
+
 body {
   @apply bg-primary;
 }

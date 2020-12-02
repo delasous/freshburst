@@ -5,9 +5,11 @@ export default function Nav () {
     <ul className='xsm:px-10'>
       <li>
         <Link href='shorts'>
-          <a className='text-3xl font-normal text-blue hover:text-white hover:bg-blue'>
+          <h3 className='text-3xl text-blue hover:text-white hover:bg-blue'>
+          <a>
             shorts//
           </a>
+          </h3>
         </Link>
       </li>
     </ul>

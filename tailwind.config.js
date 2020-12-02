@@ -7,14 +7,27 @@ module.exports = {
       }),
       fontFamily: {
         'sans': ['Hepta Slab', 'serif'],
+        'nunito': ['Nunito', 'sans-serif'],
+        'shrikhand': ['Shrikhand', 'cursive']
+      },
+      fontWeight: {
+        'extralight': '200',
+        'semibold': '600',
       },
       colors: {
         primary: '#f7f7f7',
         secondary: '#2a2a2a',
         blue: '#3332cc',
       },
+      textColor: {
+        secondary: '#2a2a2a',
+      },
+      lineHeight: {
+        '12': '3rem',
+      },
       gridTemplateColumns: {
-        'main': '250px 1fr 1fr',
+        'main': '320px 1fr 1fr',
+        'main-index': '320px repeat(4, 1fr) 2fr', //for centered index. looks bad w/ post. but both use same root Layout
         'center': '1fr 1fr minmax(50px, auto)  1fr 1fr'
       },
       gridTemplateRows: {
@@ -29,7 +42,8 @@ module.exports = {
         '110': '110px',
       },
       screens: {
-        'xsm': {'min': '240px', 'max': '768px'},
+        'xsm': {'min': '240px', 'max': '950px'},
+        'md': '950px',
       },
     },
   },

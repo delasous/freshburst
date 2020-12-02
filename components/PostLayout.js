@@ -4,13 +4,13 @@ import Link from 'next/link';
 import { MDXProvider } from '@mdx-js/react';
 
 const components = {
-    h1: props => <h1 className='col-start-2 text-blue font-normal text-5xl xsm:px-10' {...props} />,
-    p: props => <p className='col-start-2 font-light leading-7 xsm:px-10 mb-6' {...props} />,
+    h1: props => <h1 className='col-start-2 text-secondary text-3xl xsm:px-10' {...props} />,
+    p: props => <p className='col-start-2 font-extralight text-lg leading-8 xsm:px-10 mb-6' {...props} />,
 };
 
 export default function PostLayout({ children, meta, next }){
     return (
-     <article className='grid grid-cols-center justify-center col-start-2 col-span-2 row-start-4 pb-10 pr-10 xsm:ml-3'>
+     <article className='grid grid-cols-center justify-center col-start-2 col-span-2 row-start-4 pb-10 pr-10 xsm:ml-3 xsm:mr-20 md:mr-40 xl:mr-80'>
         <Head>
         <title>{meta.title}</title>
         </Head>

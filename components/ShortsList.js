@@ -7,7 +7,9 @@ export default function ShortsList (posts) {
         <article>
           <Link href={t.link}>
             <div>
-            <a className='no-underline bg-primary hover:bg-blue text-secondary hover:text-white'>{t.module.meta.title}</a>
+            <h3 className='no-underline bg-primary hover:bg-blue text-secondary hover:text-white'>
+              <a>{t.module.meta.title}</a>
+            </h3>
             </div>
           </Link>
         </article>
@@ -16,7 +18,7 @@ export default function ShortsList (posts) {
   })
 
   return (
-    <ul className='flex flex-wrap items-start flex-2 list-none sm:justify-start md:justify-around xsm:px-6'>
+    <ul className='flex flex-wrap items-start flex-2 list-none sm:justify-start md:justify-around xsm:px-6 md:mr-40'>
       {content}
     </ul>
   );
